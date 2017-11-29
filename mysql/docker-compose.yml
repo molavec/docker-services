@@ -1,4 +1,6 @@
-db:
+version: '3'
+
+mongo:
   image: mysql
   environment:
     MYSQL_ROOT_PASSWORD: "perrita"
